@@ -1,0 +1,85 @@
+* {
+  background-color: palegoldenrod;
+}
+.center {
+  margin: auto;
+  width: 40%;
+  border: 3px solid #73ad21;
+  padding: 10px;
+  display: grid;
+  margin-top: 10%;
+}
+.name {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.result {
+  align-content: center;
+  color: indianred;
+  margin-left: 8rem;
+  font-size: large;
+}
+.userName {
+  margin-top: 10px;
+}
+#totalMarks {
+  margin-left: 120px;
+}
+#Name {
+  margin-left: 10px;
+}
+#Class {
+  margin-left: 65px;
+}
+#hindi {
+  margin-left: 65px;
+}
+#english {
+  margin-left: 50px;
+  width: 180px;
+}
+#physics {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  width: 180px;
+}
+#math {
+  margin-left: 65px;
+}
+#chemistry {
+  margin-left: 33px;
+  width: 195px;
+}
+#science {
+  margin-left: 50px;
+  width: 195px;
+}
+#social {
+  width: 195px;
+  margin-left: 5px;
+}
+#art {
+  margin-left: 75px;
+}
+.btn {
+  display: flow-root;
+  margin-left: 9rem;
+}
+.warning {
+  color: yellow;
+}
+.submit {
+  color: yellowgreen;
+}
+.exit {
+  color: grey;
+}
+.contenter {
+  display: grid;
+}
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
