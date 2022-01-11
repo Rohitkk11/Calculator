@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div>
+        <form class="center test">
+            <div>
+                <div><label for="name" class="name">
+                        Student Name :</label>
+                    <input type="text" id="Name" placeholder="enter your name" required />
+                </div>
+                <div class="userName">
+                    <label for="name" class="name">
+                        Class :</label>
+                    <select id="Class" class="choose" required>
+                        <option value="choose">choose your class </option>
+                        <option value="highSchool" id="hight">High School</option>
+                        <option value="interMediate" id='inter'>  </option>
+                    </select>
+                    <div>
+                    </div>
+                </div>
+                <div>
+                    <label for="result" class="total result">enter your total marks</label>
+                    <div>
+                        <input type="Number" id="totalMarks" placeholder="enter your total Number" required />
+                    </div>
+                </div>
+
+            </div>
+            <div class="contenter a">
+                <label for="result" class="result">enter your occupied marks</label>
+                <div class="userName"id="chemistry1">
+                    <label for="name" class="name ">Chemistry :</label>
+                    <input type="Number" id="chemistry" class="validation" placeholder="enter your Chemistry Number"
+                        required />
+                </div>
+                <div class="userName"id="science1">
+                    <label for="name" class="name ">
+                        Science:
+                        <input type="Number" id="science" class="validation" placeholder="enter your Science number "
+                            required />
+                    </label>
+                </div>
+                <div class="userName">
+                    <label for="name" class="name ">
+                        Hindi:
+                        <input type="Number" id="hindi" class="validation" placeholder="enter your Hindi number "
+                            required />
+                    </label>
+                </div>
+                <div class="userName">
+                    <label for="name" class="name ">
+                        English :
+                        <input type="Number" id="english" class="validation" placeholder="enter your English Number"
+                            required />
+                    </label>
+                </div>
+                <div class="userName">
+                    <label for="name" class="name ">
+                        Math :
+                        <input type="Number" id="math" class="validation" placeholder="enter your Math Number"
+                            required />
+                    </label>
+                </div>
+                <div class="userName" id='social1'>
+                    <label for="name" class="name " >
+                        Social Science :
+                        <input type="Number" id='social'class="validation" placeholder="enter your social_Sc Number" required />
+                </div>
+                <div class="userName"id="physics1" >
+                    <label for="name" class="name">
+                        Physics :
+                        <input type="Number" id="physics" class="validation" placeholder="enter your Physics Number"
+                            required />
+                </div>
+                <div class="addArt ">
+                    <label for="name" class="name addArt">
+                        Art :
+                        <input type="Number" id="art" class="validation" placeholder="enter your Art Number" required />
+                    </label>
+                </div>
+            </div>
+            <div class=" total">
+                <p id='totalMarks1'> </p>
+            </div>
+            <div class="btn">
+                <button type="button" class="warning" onclick="Alert()">Alert</button>
+                <button type="button" class="submit" onclick="Submit()">Submit</button>
+                <button type="reset" class="reset">reset</button>
+                <button type="button" class='exit'>Exit</button>
+            </div>
+    </div>
+    </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
